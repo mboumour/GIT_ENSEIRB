@@ -1,0 +1,31 @@
+(********* Exercice  1  *********)
+ 
+function factorial(n) {
+    if (n <= 1)
+        return 1;
+    else
+        return n * factorial(n-1);
+}
+ 
+(********* Exercice  2  *********)
+ 
+function factorial(n: number) : number {
+    if (n <= 1)
+        return 1;
+    else
+        return n * factorial(n-1);
+}
+
+console.log(factorial("5"));
+ 
+(********* Exercice  3  *********)
+ 
+(********* Exercice  4  *********)
+ 
+(********* Exercice  5  *********)
+ 
+convert(666) ;; -> "1010011010"
+ 
+convert2Base(666, 2)  ;; -> '1010011010'
+convert2Base(666, 3)  ;; -> '220200'
+convert2Base(666, 16) ;; -> '29A'
